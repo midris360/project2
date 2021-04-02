@@ -104,11 +104,11 @@ For using partials with the includes function, the path is relative to the locat
 
 `<%- include("../partials/head") %>`
 
-#### Sessions
+## Sessions
 
 Sessions is already configured so all your controllers should be able to access req.sessions.
 
-#### Common Errors
+## Common Errors
 
 - module not found: It means it can't find the file or library you required so double check the line the error refers to. Possible solutions include:
 
@@ -126,14 +126,14 @@ Sessions is already configured so all your controllers should be able to access 
 
 - when you use res.render the object passed as the second argument contains all the data provided to the template and the name of the properties is how you should refer to them in your EJS file.
 
-#### Reference
+## Reference
 
 - [Express Documentation](https://expressjs.com/)
 - [EJS Documentation](https://ejs.co/)
 - [Mongoose Documentation](https://mongoosejs.com/docs/index.html)
 - [Express Build Video Playlist](https://www.youtube.com/playlist?list=PLY6oTPmKnKbb4uE8ym45pLaaE76sUwvBL)
 
-#### HTML & CSS Review
+## HTML & CSS Review
 
 - [HTML REFRESHER VIDEO](https://generalassembly.zoom.us/rec/share/ht-wmHyCTgnV-hrvtEzgCsywHKyPYQ1OH0S6DfNh-V1XB1vPsBh_Q1HTgtr0i1lI.LGQPTyMA_pcn3mbV?startTime=1612187836000)
 - [CSS Refresher Video](https://generalassembly.zoom.us/rec/share/ht-wmHyCTgnV-hrvtEzgCsywHKyPYQ1OH0S6DfNh-V1XB1vPsBh_Q1HTgtr0i1lI.LGQPTyMA_pcn3mbV?startTime=1612187836000)
@@ -141,7 +141,7 @@ Sessions is already configured so all your controllers should be able to access 
 - [CSS Flexbox](https://generalassembly.zoom.us/rec/share/kToGF_1iwh-hW-Kjvds_tZFzC4wp2H7bhQO1o6EZxD3hYpCQXozeuwV0mCxkEnlk.F4lGdBM2_w3ameBT)
 - [BEM Naming Conventions](https://generalassembly.zoom.us/rec/share/E5rcHmqX7SsWWKPQu8mad3W_CIhyix8xlBCQtvZzOXoKcIyX6ErlpUm0tV0Txbc.n0p3WR3y4tnyeb8X)
 
-#### Javascript Review
+## Javascript Review
 
 - [Javascript in 60 Minutes](https://www.youtube.com/watch?v=yN9-eBh3dSw&list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3&index=1&t=355s)
 - [Javascript in 30 Minutes - Part 1](https://www.youtube.com/watch?v=VEnrgqenumY&t=1s)
@@ -160,11 +160,3 @@ Sessions is already configured so all your controllers should be able to access 
 - [Web Component Styling Masterclass](https://www.youtube.com/watch?v=9flT7pFyaXM)
 - [OOP Masterclass](https://www.youtube.com/watch?v=IxbDwmNwnFQ)
 - [Classes Masterclass](https://www.youtube.com/watch?v=O93r_ZB1NfQ)
-
-## HTML & CSS Review
-
-- [HTML REFRESHER VIDEO](https://generalassembly.zoom.us/rec/share/ht-wmHyCTgnV-hrvtEzgCsywHKyPYQ1OH0S6DfNh-V1XB1vPsBh_Q1HTgtr0i1lI.LGQPTyMA_pcn3mbV?startTime=1612187836000)
-- [CSS Refresher Video](https://generalassembly.zoom.us/rec/share/ht-wmHyCTgnV-hrvtEzgCsywHKyPYQ1OH0S6DfNh-V1XB1vPsBh_Q1HTgtr0i1lI.LGQPTyMA_pcn3mbV?startTime=1612187836000)
-- [CSS Grid](https://generalassembly.zoom.us/rec/share/6VOvdpBiOf6uJuU0LIzTNDRQ5PQPb4EeA7L6U0PEYeFDW3hH2xF6J496JAuakgNH.iHsdHqmjc58FEP1N)
-- [CSS Flexbox](https://generalassembly.zoom.us/rec/share/kToGF_1iwh-hW-Kjvds_tZFzC4wp2H7bhQO1o6EZxD3hYpCQXozeuwV0mCxkEnlk.F4lGdBM2_w3ameBT)
-- [BEM Naming Conventions](https://generalassembly.zoom.us/rec/share/E5rcHmqX7SsWWKPQu8mad3W_CIhyix8xlBCQtvZzOXoKcIyX6ErlpUm0tV0Txbc.n0p3WR3y4tnyeb8X)
