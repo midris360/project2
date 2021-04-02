@@ -53,6 +53,15 @@ const someControllerFunction = (req, res) => {
 };
 ```
 
+**main request properties**
+
+- req.session: the session object, used to store data between requests
+- req.params: url params are stored here
+- req.query: url queries stored here
+- req.body: request body stored here (parsed by express.urlencoded and express.json middleware)
+- req.method: the request method
+- req.headers: all request headers stored here
+
 **response types**
 
 - res.json => send data as json response
