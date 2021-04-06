@@ -12,6 +12,14 @@
 
 - enjoy!
 
+## Project Management Tools
+
+- [Trello](https://trello.com/)
+- [Airtable](https://airtable.com/)
+- [Asana](https://asana.com/)
+- [Clickup](https://clickup.com/pricing)
+- [Google Table](https://tables.area120.google.com/u/0/home)
+
 ## Scripts
 
 - `npm run start` run in production mode, node server.js
