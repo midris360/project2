@@ -1,11 +1,11 @@
-# Project Name
+# AudioLike
 
-- **Author:** dfadfadfadfsfa
-- **Link to Live Site:** fdfadadfadfsdfadfadf
+- **Author:** (template by Alex Merced)
+- **Link to Live Site:** 
 
 
 ## Project Summary
-
+This appp allows users to create an account and once logged in, users are able to create,  a list of songs that the users like. Which they would also be bale to delete any on the list as well.
 
 
 ## Technology Used
