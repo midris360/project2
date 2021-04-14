@@ -1,7 +1,7 @@
 # AudioLike
 
 - **Author:** Mohammed Idris (template by Alex Merced)
-- **Link to Live Site:** 
+- **Link to Live Site:** https://midris-project2.herokuapp.com/
 
 
 ## Project Summary
@@ -9,25 +9,29 @@ This appp allows users to create an account and once logged in, users are able t
 
 
 ## Technology Used
-HTML, CSS, JavaScript, Node.js, Express.js
+HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose
 
 
 ## Models
- - user => String
- - age => number
+ - users => String
+ - songs => Name => String
+            Genre => String
+            Title => String
+ - Rating(Likes) => number
+ - 
 
 
 ## Route Map
 
 | Method | Endpoint | Resource/View |
 |--------|----------|---------------|
-|GET| "/sample" | List all Samples (sample/index.ejs) |
-|GET| "/sample/:id | Display single Sample (sample/show.ejs)|
-|GET| "/sample/new | Render form for New Sample (sample/new.ejs)|
-|POST| "/sample" | Uses Form Submission to Create new Sample |
-|GET| "/sample/:id/edit" | Render form to edit Sample (sample/edit.ejs)|
-|PUT| "/sample/:id" | Uses Form Submission to edit Sample |
-|DELETE| "/sample/:id" | Delete a particular Sample |
+|GET| "/songs" | List all songs (song/index.ejs) |
+|GET| "/song/:id | Display single song (song/show.ejs)|
+|GET| "/song/new | Render form for New Song (song/new.ejs)|
+|POST| "/song" | Uses Form Submission to Create new Song |
+|GET| "/song/:id/edit" | Render form to edit Song (sample/edit.ejs)|
+|PUT| "/song/:id" | Uses Form Submission to edit Song |
+|DELETE| "/song/:id" | Delete a particular Song |
 
 
 ## Challenges
