@@ -1,6 +1,6 @@
 # AudioLike
 
-- **Author:** (template by Alex Merced)
+- **Author:** Mohammed Idris (template by Alex Merced)
 - **Link to Live Site:** 
 
 
@@ -9,12 +9,11 @@ This appp allows users to create an account and once logged in, users are able t
 
 
 ## Technology Used
+HTML, CSS, JavaScript, Node.js, Express.js
 
 
 ## Models
-
-Sample Model:
- - name => String
+ - user => String
  - age => number
 
 
