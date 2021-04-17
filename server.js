@@ -16,7 +16,7 @@ const SECRET = process.env.SECRET || "secret"
 const HomeRouter = require("./routes/home.js");
 // Sessions Middleware
 const session = require("express-session"); // create session cookies
-const authorization = require("./utils/authorization");
+// const authorization = require("./utils/authorization");
 const connect = require("connect-mongodb-session")(session) // store cookies in mongo
 
 /////////////////////////////////////

@@ -2,7 +2,7 @@
 // Import Router
 ////////////////////////////////
 const router = require("express").Router()
-const AuthRouter = require("/auth")
+const AuthRouter = require("./auth")
 
 ///////////////////////////////
 // Router Specific Middleware

@@ -6,6 +6,7 @@ h1.title, h3.title{
 main {
     text-align: center;
     margin: 10px;
+    min-height: 75vh;
 }
 
 input {

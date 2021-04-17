@@ -22,7 +22,7 @@ router.get("/signup", (req, res) => {
     res.render("auth/signup")
 })
 
-router.post("/signup", (req, res) => {
+router.post("/signup", async (req, res) => {
    try {
    // encrypt password
    const salt = await bcrypt.genSalt(10)
@@ -50,7 +50,7 @@ router.get("/login", (req, res) => {
 router.post("/login", async (req, res) => {
     try {
         // First Stop, does the user exist
-        const user =await User.findOne({username: req.body.username});
+        const user = await User.findOne({username: req.body.username});
         if (user){
             const result = await bcrypt.compare(req.body.password, user.password)
             if (result) {
