@@ -2,16 +2,14 @@
 // Import Router
 ////////////////////////////////
 const router = require("express").Router()
-const AuthRouter = require("./auth")
-const TracksRouter = require("./tracks")
-const SongsRouter = require("./songs")
+const User = require("../models/User")
+const Songs = require("../models/Songs")
+const auth = require("./authMiddleware")
 
 ///////////////////////////////
 // Router Specific Middleware
 ////////////////////////////////
-router.use("/auth", AuthRouter)
-router.use("/tracks", TracksRouter)
-router.use("/songs", SongsRouter)
+router.use(auth)
 
 
 

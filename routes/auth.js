@@ -73,6 +73,12 @@ router.post("/login", async (req, res) => {
 
 });
 
+// logout
+    router.get("/logout", (req, res) => {
+        req.session.user = null
+        res.redirect("/")
+    });
+
 ///////////////////////////////
 // Export Router
 ////////////////////////////////

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- THE HEAD TAG PARTIAL -->
+    <%- include("../partials/head") %>
+
+    <body>
+        <!-- THE HEADER TAG PARTIAL -->
+        <%- include("../partials/header") %>
+        <main>
+            <h2>Tracks</h2>
+            <% for (track of tracks) { %>
+
+                <a href="/tracks/<%= track._id %>"><h3><%= track.text %></h3></a>
+
+            <% } %>
+            <form action="/tracks/" method="post">    
+                <input class="input" type="text" name="text" placeholder="new track" />
+                <input class="button" type="submit" value="create track" />
+            </form>
+
+
+        </main>
+        <!-- THE HEAD TAG PARTIAL -->
+        <%- include("../partials/footer") %>
+    </body>
+</html>
