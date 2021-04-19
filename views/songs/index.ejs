@@ -8,17 +8,17 @@
         <!-- THE HEADER TAG PARTIAL -->
         <%- include("../partials/header") %>
         <main>
-            <h2 class="subtitle is-2">Tracks</h2>
+            <h2 class="subtitle is-2">Songs</h2>
             <a href="/dashboard">DASHBOARD</a>
 
-            <% for (track of tracks) { %>
+            <% for (song of songs) { %>
 
-                <a href="/tracks/<%= track._id %>"><h3><%= track.text %></h3></a>
+                <a href="/songs/<%= song._id %>"><h3><%= song.text %></h3></a>
 
             <% } %>
-            <form action="/tracks/" method="post">    
-                <input class="input" type="text" name="text" placeholder="new track" />
-                <input class="button" type="submit" value="create track" />
+            <form action="/songs/" method="post">    
+                <input class="input" type="text" name="text" placeholder="new song" />
+                <input class="button" type="submit" value="create song" />
             </form>
 
 
