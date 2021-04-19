@@ -5,7 +5,7 @@
 
 
 ## Project Summary
-This appp allows users to create an account and once logged in, users are able to create,  a list of songs that the users like. Which they would also be bale to delete any on the list as well.
+This app allows users to create an account and once logged in, users are able to create,  a list of songs that the users like. Which they would also be bale to delete any on the list as well.
 
 
 ## Technology Used
@@ -34,7 +34,7 @@ HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose
 |DELETE| "/song/:id" | Delete a particular Song |
 
 ## Future Enhancements
-
+1. To be able to click on song as a link to listen to song along with song image.
 
 ## Challenges
 

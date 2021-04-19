@@ -14,14 +14,14 @@
 
                <h3 class="title is-3"><%= track.text %></h3>
 
-            <% } %>
+            
             <form action="/tracks/<%= track._id %>?_method=PUT" method="post">    
-                <input class="input" type="text" name="text" placeholder="new track" value="<%= track.text %>"
+                <input class="input" type="text" name="text" placeholder="new track" value="<%= track.text %>" />
                 <input class="button" type="submit" value="edit track" />
             </form>
 
             <form action="/tracks/<%= track._id %>?_method=delete" method="post">    
-                <input class="button" type="submit" value="Delete track" />
+                <input class="button" type="submit" value="delete track" />
             </form>
 
 

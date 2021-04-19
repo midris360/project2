@@ -14,14 +14,14 @@
 
                <h3 class="title is-3"><%= song.text %></h3>
 
-            <% } %>
+        
             <form action="/songs/<%= song._id %>?_method=PUT" method="post">    
                 <input class="input" type="text" name="text" placeholder="new song" value="<%= song.text %>"
                 <input class="button" type="submit" value="edit song" />
             </form>
 
             <form action="/songs/<%= song._id %>?_method=delete" method="post">    
-                <input class="button" type="submit" value="Delete song" />
+                <input class="button" type="submit" value="delete song" />
             </form>
 
 

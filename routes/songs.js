@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
     const id = req.params.id
-    const dream = await Songs.findOne({_id: id, user: req.session.user.id})
+    const songs = await Songs.findOne({_id: id, user: req.session.user.id})
     if (song) {
         res.render("songs/show", {
             song
@@ -45,7 +45,7 @@ router.get("/:id", async (req, res) => {
 
 router.put("/:id", async (req, res) => {
     await Song.findByIdAndUpdate(req.params.id, req.body)
-    res.redirect("/songs")
+    res.redirect("/songs/")
 })
 
 router.delete("/:id", async (req, res) => {
