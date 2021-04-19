@@ -3,7 +3,7 @@ h1.title, h3.title{
     padding: 10px;
 }
 
-main, p {
+main  {
     text-align: center;
     margin: 10px;
     min-height: 75vh;
@@ -13,4 +13,9 @@ input {
     display: block !important;
     margin: 7px auto;
     max-width: 40% !important;
+}
+
+p {
+    text-align: center;
+    min-height: auto;
 }
