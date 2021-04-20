@@ -7,10 +7,10 @@
 ## Project Summary
 This app allows users to create an account and once logged in, users are able to create, a list of artists/songs and add to a favorites playlist that the users like. Also, users would be able to edit/delete any on there created lists as well.
 
-https://i.ibb.co/FndZmjB/Screenshot-1.png
-https://i.ibb.co/FVRvDwR/Screenshot-2.png
-https://i.ibb.co/fq7L6Vr/screenshot-3.png
-https://i.ibb.co/L1TQS0F/screenshot-4.png
+<img src="https://i.ibb.co/FndZmjB/Screenshot-1.png" />
+<img src="https://i.ibb.co/FVRvDwR/Screenshot-2.png" />
+<img src="https://i.ibb.co/fq7L6Vr/screenshot-3.png" />
+<img src="https://i.ibb.co/L1TQS0F/screenshot-4.png" />
 
 
 
