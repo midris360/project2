@@ -1,15 +1,24 @@
-# AudioLike
+# AudioLike app
 
 - **Author:** Mohammed Idris (template by Alex Merced)
 - **Link to Live Site:** https://midris-project2.herokuapp.com/
 
 
 ## Project Summary
-This app allows users to create an account and once logged in, users are able to create,  a list of songs that the users like. Which they would also be bale to delete any on the list as well.
+This app allows users to create an account and once logged in, users are able to create, a list of artists/songs and add to a favorites playlist that the users like. Also, users would be able to edit/delete any on there created lists as well.
 
 
 ## Technology Used
-HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose, Bulma, Materialize
+1. HTML
+2. CSS
+3. JavaScript
+4. Node.js
+5. Express.js
+6. EJS
+7. MongoDB
+8. Mongoose
+9. Bulma
+10. Materialize
 
 
 ## Models
@@ -34,7 +43,7 @@ HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose, Bulma, Mater
 
 ## Future Enhancements
 1. Add a favorites(Rating) feature where users can favorite a song they search and create which automatically be added to there favorite playlist.
-3. To be able to click on a song as a link to listen to song along with song image.
+2. To be able to click on a song as a link to listen to song along with song image.
 
 ## Challenges
 
