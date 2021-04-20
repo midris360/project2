@@ -17,8 +17,7 @@ HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose
  - songs => Name => String
             Genre => String
             Title => String
- - Rating(Likes) => number
- - 
+ - artists => String
 
 
 ## Route Map
@@ -34,7 +33,8 @@ HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose
 |DELETE| "/song/:id" | Delete a particular Song |
 
 ## Future Enhancements
-1. To be able to click on song as a link to listen to song along with song image.
+1. Add a favorites(Rating) feature where users can favorite a song they search and create which automatically be added to there favorite playlist.
+3. To be able to click on a song as a link to listen to song along with song image.
 
 ## Challenges
 

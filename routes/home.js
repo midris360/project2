@@ -3,14 +3,14 @@
 ////////////////////////////////
 const router = require("express").Router()
 const AuthRouter = require("./auth")
-const TracksRouter = require("./tracks")
+const ArtistsRouter = require("./artists")
 const SongsRouter = require("./songs")
 
 ///////////////////////////////
 // Router Specific Middleware
 ////////////////////////////////
 router.use("/auth", AuthRouter)
-router.use("/tracks", TracksRouter)
+router.use("/artists", ArtistsRouter)
 router.use("/songs", SongsRouter)
 
 

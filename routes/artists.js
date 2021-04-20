@@ -20,9 +20,9 @@ router.use( async (req, res, next) => {
 ////////////////////////////////
 router.get("/", async (req, res) => {
     const user = req.user
-    const tracks = user.tracks
-    res.render("tracks/index", {
-        tracks
+    const artists = user.artists
+    res.render("artists/index", {
+        artists
     })
 })
 
@@ -30,37 +30,37 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
     const user = req.user 
-    user.tracks.push(req.body)
+    user.artists.push(req.body)
     user.save()
-    res.redirect("/tracks/")
+    res.redirect("/artists/")
 })
 
 router.get("/:id", async (req, res) => {
 const id = req.params.id
-const index = req.user.tracks.findIndex((track) => '${track._id}' === id)
+const index = req.user.artists.findIndex((artist) => `${artist._id}` === id)
 
-const track = req.user.tracks[index]
-console.log(track)
-res.render("tracks/show", {
-    track
+const artist = req.user.artists[index]
+console.log(artist)
+res.render("artists/show", {
+    artist
 })
 
 })
 
 router.put("/:id", async (req, res) => {
     const id = req.params.id
-    const index = req.user.tracks.findIndex((track) => '${track._id}' === id)
-    req.user.tracks[index].text = req.body.text
+    const index = req.user.artists.findIndex((artist) => `${artist._id}` === id)
+    req.user.artists[index].text = req.body.text
     req.user.save()
-    res.redirect("/tracks")
+    res.redirect("/artists")
 })
 
 router.delete("/:id", async (req, res) => {
     const id = req.params.id
-    const index = req.user.tracks.findIndex((track) => '${track._id}' === id)
-    req.user.tracks.splice(index, 1)
+    const index = req.user.artists.findIndex((artist) => `${artist._id}` === id)
+    req.user.artists.splice(index, 1)
     req.user.save()
-    res.redirect("/tracks")
+    res.redirect("/artists")
 })
 ///////////////////////////////
 // Export Router
