@@ -1,13 +1,22 @@
+
 h1.title, h3.title{
     text-align: center;
-    padding: 10px;
+   /* padding: 10px; */
 }
 
-main  {
+p.title-home-center {
     text-align: center;
-    margin: 10px;
-    min-height: 75vh;
 }
+
+
+.field {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 input {
     display: block !important;
@@ -15,7 +24,15 @@ input {
     max-width: 40% !important;
 }
 
+
+
 p {
     text-align: center;
     min-height: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+img {
+  padding: -10px;
 }
