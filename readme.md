@@ -49,6 +49,8 @@ This app allows users to create an account and once logged in, users are able to
 ## Future Enhancements
 1. Add a favorites(Rating) feature where users can favorite a song they search and create which automatically be added to there favorite playlist.
 2. To be able to click on a song as a link to listen to song along with song image.
+3. Being able to click on an artists within your favorites and then should automatically play random songs by said artists.
+4. Being able to play the full playlist of songs youve favorited.
 
 ## Challenges
 1. I had challenges and still do with the CSS styling, alsohad challenges with the a few CRUD operations with the embedded relationship (Artists).
