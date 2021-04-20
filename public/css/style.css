@@ -36,3 +36,7 @@ p {
 img {
   padding: -10px;
 }
+
+a {
+    text-align: center;
+}

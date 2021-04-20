@@ -7,6 +7,12 @@
 ## Project Summary
 This app allows users to create an account and once logged in, users are able to create, a list of artists/songs and add to a favorites playlist that the users like. Also, users would be able to edit/delete any on there created lists as well.
 
+https://i.ibb.co/FndZmjB/Screenshot-1.png
+https://i.ibb.co/FVRvDwR/Screenshot-2.png
+https://i.ibb.co/fq7L6Vr/screenshot-3.png
+https://i.ibb.co/L1TQS0F/screenshot-4.png
+
+
 
 ## Technology Used
 1. HTML
@@ -18,7 +24,6 @@ This app allows users to create an account and once logged in, users are able to
 7. MongoDB
 8. Mongoose
 9. Bulma
-10. Materialize
 
 
 ## Models
@@ -46,6 +51,7 @@ This app allows users to create an account and once logged in, users are able to
 2. To be able to click on a song as a link to listen to song along with song image.
 
 ## Challenges
+1. I had challenges and still do with the CSS styling, alsohad challenges with the a few CRUD operations with the embedded relationship (Artists).
 
 
 ## Existing Bugs
