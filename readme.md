@@ -9,7 +9,7 @@ This app allows users to create an account and once logged in, users are able to
 
 
 ## Technology Used
-HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose
+HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, Mongoose, Bulma, Materialize
 
 
 ## Models
